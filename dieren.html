@@ -13,7 +13,7 @@
 		
 		<p>These are all the animals currently residing at our awesome animal shelter:</p>
 		
-		<a name="dogs"></a>		
+		<a name="dogs"><h3>Dogs</h3></a>		
 		
 		<p>These are all our lovely dogs.</p>
 		
@@ -23,31 +23,31 @@
 					<th>Dogs</th>
 				</tr>
 				<tr>
-					<th>Naam</th>
-					<th>Leeftijd</th>
+					<th>Name</th>
+					<th>Age</th>
 					<th>Reg. Nr.</th>
-					<th>Gereserveerd</th>
+					<th>Reserved</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td><b>Foxy</b></td>
-					<td>12 jaar</td>
+					<td>12 years</td>
 					<td>0001</td>
-					<td>Nee</td>
+					<td>No</td>
 				</tr>
 				<tr>
 					<td><b>Ginky</b></td>
-					<td>11 jaar</td>
+					<td>11 Years</td>
 					<td>0002</td>
-					<td>Nee</td>
+					<td>No</td>
 				</tr>
 			</tbody>
 		</table>
 		
-		<a name="cats"></a>
+		<a name="cats"><h3>Cats</h3></a>
 		
-		<p>and these are all our playfull cats</p>
+		<p>and these are all our playful cats</p>
 		
 		<table>
 			<thead>
@@ -55,23 +55,50 @@
 					<th>Cats</th>
 				</tr>
 				<tr>
-					<th>Naam</th><th>Leeftijd</th><th>Reg. Nr.</th><th>Gereserveerd</th>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Reg. Nr.</th>
+					<th>Reserved</th>
 				</tr>
 			</thead>
 			<tbody>
 			 <tr>
 				<td><b>General Puddington</b></td>
-				<td>2 jaar</td>
+				<td>2 years</td>
 				<td>0003</td>
-				<td>Ja</td>
+				<td>Yes</td>
 			 </tr>
 			 <tr>
 				<td><b>Commander Puffles</b></td>
-				<td>5 jaar</td>
+				<td>5 years</td>
 				<td>0004</td>
-				<td>Mischien</td>
+				<td>No</td>
 			 </tr>
 			</tbody>
 		</table>
+		
+		<h1>Add a new animal</h1>
+		
+		<form>
+			<label for="AnimalName">Name</label>
+			<input type="text" id="AnimalName" />
+			<br />
+			<label for="AnimalAge">Age</label>
+			<input type="text" id="AnimalAge" />
+			<br />
+			<label for="AnimalRegNr">Reg. Nr.</label>
+			<input type="number" id="AnimalRegNr" />
+			<br />
+			<label for="AnimalReserved">Reserved</label>
+			<input type="checkbox" id="AnimalReserved" />
+			<br />
+			<label for="AnimalSpecies">Species</label>
+			<input type="radio" id="AnimalSpecies" value="AnimalSpeciesDog">Is Dog
+			
+			<br />
+			<br />
+			
+			<input type="submit" value="Add"
+		</form>
     </body>
 </html>
