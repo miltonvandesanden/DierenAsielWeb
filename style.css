@@ -6,7 +6,6 @@ body
 p
 {
 	font-size: 14px;
-	display: inline-block;
 }
 
 a
@@ -76,4 +75,9 @@ input
 .hidden
 {
 	visibility: hidden;
+}
+
+form.p
+{
+	display: inline-block;
 }
